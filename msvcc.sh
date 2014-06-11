@@ -68,6 +68,11 @@ do
       safeseh=
       shift 1
     ;;
+    -clang-cl)
+      cl="clang-cl"
+      safeseh=
+      shift 1
+    ;;
     -O0)
       args="$args -Od"
       shift 1
